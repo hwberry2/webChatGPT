@@ -1,3 +1,4 @@
+//testing replit and git
 $(document).ready(function() {
   $("#myAPI").submit(function(event) {
     event.preventDefault();
