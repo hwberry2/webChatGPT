@@ -10,14 +10,14 @@ $(document).ready(function() {
         var top_p = $('#top_p').val();
         var frequency_penalty = $('#frequency_penalty').val();
         var presence_penalty = $('#presence_penalty').val();
-        var apiKey = "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";*/
+        var apiKey = "";*/
 
     // Send the request to OpenAI with the form data
     console.log("End Variables have been stored");
 
     console.log("running function: sendQueryToOpenAI()");
     const sendQueryToOpenAI = async (prompt, model) => {
-      const apiKey = "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";//process.env.OPENAI_API_KEY;
+      const apiKey = "";//process.env.OPENAI_API_KEY;
       const queryData = {
         prompt: prompt,
         /*model: model,*/ //can't send engine and model in same post request.seding post request direct to davinci
